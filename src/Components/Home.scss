@@ -1,0 +1,35 @@
+.banner{
+    height: 300px;
+    background-color: rgba( 30,30,30);
+
+    >img{
+        
+        height: 50vh;
+    }
+}
+.row{
+    padding: 1rem;
+    background-color: rgb(30,30,30);
+ >h2{
+    font-weight: 400;
+    margin: 0.3rem;
+ }
+>div{
+    display: flex;
+  
+    overflow-x: auto;
+   
+   
+    
+}
+}
+.card{
+    height: 200px;
+    cursor: pointer;
+    margin: 0.3rem;
+    transition: transform 0.5sec;
+
+    &:hover{
+        transform: translateY(-10px) scale(1.1);
+    }
+}

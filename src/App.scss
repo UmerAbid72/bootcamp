@@ -1,0 +1,54 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    height: 90px;
+    background-color: rgb(30,30,30);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    > img{
+    height: 50%;
+}
+
+    >div{
+        
+        width: 100%;
+        margin-left: 3vmax;
+        display: flex;
+        >a{
+            margin: 2vmax;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        >button{
+            justify-content: right;
+            width: 15vh;
+            height: 2rem;
+            position: absolute;
+            right: 30px;
+            top: 25px;
+            color: black;
+            background-color: blue;
+
+        }
+        
+    }
+
+    >svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
