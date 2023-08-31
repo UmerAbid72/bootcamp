@@ -86,7 +86,7 @@ const Home = () => {
     <Header/>
     
     <section className="home">
-    <h1> Umer</h1>
+    <h1> Umer Abid</h1>
       <div className="banner">
       <img src={picture} alt=""/>
       <img src={picture} alt=""/>
